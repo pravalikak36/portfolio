@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRAVALIKA K | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Add this in <head> of your index.html -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<!-- Social Icons Bottom Left -->
+<div class="social-icons">
+  <a href="https://www.instagram.com/pravalika_kugarthi?igsh=eTJ0cDlxYnliNXRq" target="_blank" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/pravalika-kugarthi-6840b7355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+  <div class="logo">PRAVALIKA </div>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="project.html">My Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-text">
+    <!-- Welcome text -->
+    <p class="welcome-text">Welcome to my Portfolio 👋</p>
+
+    <!-- Main text -->
+    <h1 class="animated-text">
+      <span>Hi,</span>
+      <span>I'm</span>
+      <span class="pink-text">PRAVALIKA</span>
+    </h1>
+
+    <!-- Subtext -->
+    <p class="animated-subtext">
+  Passionate about Web Development ⚡| Creative Projects 🌐| NodeJS & APIs <span class="link-icon">🔗</span>
+</p>
+
+    <!-- Button -->
+    <a href="about.html" class="btn">Learn More About Me 🚀</a>
+  </div>
+</section>
+
+
+
+  <!-- Chatbot -->
+<div class="chatbot-container">
+  <button class="chatbot-btn" onclick="toggleChat()">🤖</button>
+  <div class="chat-window" id="chatWindow">
+    <img src="ai-bot.png" alt="AI Bot" class="ai-character">
+    <div class="chat-messages" id="chatMessages">
+      <p class="bot">👋 Hi! I’m your AI buddy. Ask me anything! ✨</p>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type something...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
